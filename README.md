@@ -1,6 +1,6 @@
 # backend
 
-## ERD terlampir besamaan dengan file
+## ERD terlampir dalam file server nama file ERD.drawio
 
 Care menggunakan:
 1. lakukan npm install
