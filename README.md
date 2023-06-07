@@ -4,10 +4,14 @@
 
 Care menggunakan:
 1. lakukan npm install
-2. pastikan database yang digunakan adala mysql
-3. seeting koneksi database pada folder confiq
-4. Buat .env yang berisi SECRET=rahasia
-5. Lalu jalankan endpoint
+2. lakukan pembuatan database, migrate, dan seeding
+    syntax:
+    - npx sequelize db:migrate
+    - npx sequelize db:seed:all
+3. pastikan database yang digunakan adala mysql
+4. seeting koneksi database pada folder confiq
+5. Buat .env yang berisi SECRET=rahasia
+6. Lalu jalankan endpoint
 
 Stact yang digunakan
 1. express
