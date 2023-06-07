@@ -6,6 +6,7 @@ Care menggunakan:
 1. lakukan npm install
 2. lakukan pembuatan database, migrate, dan seeding
     syntax:
+    - npx sequelize db:create
     - npx sequelize db:migrate
     - npx sequelize db:seed:all
 3. pastikan database yang digunakan adala mysql
